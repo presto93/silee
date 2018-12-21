@@ -42,7 +42,7 @@ def processing_event(queue):
                text=keywords
            )
 
-# 크롤링 함수 구현하기
+# 크롤링 함수 구현
 pre_command = ''
 INTRO = "안녕하세요 NAVER N스토어 챗봇입니다.\n무엇을 도와드릴까요?\nex)silee야, 요즘 인기있는 이북 알려줘\n제목으로 검색하려면 '검색 : 컨텐츠 제목 / 장르' 의 양식으로 이야기해주세요!"
 URL = 'https://nstore.naver.com/'

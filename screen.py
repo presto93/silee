@@ -16,7 +16,7 @@ def get_name(type):
 def recommand(type):
     type_list = ['EBook', '만화', '소설', '영화', '방송']
     if type == 'none' or type == 'all':
-        return '무슨말인지 잘 모르겠어요. 오늘은 {} 어떠세요?'.format(type_list[random.randrange(0, 5)])
+        return '무슨 말인지 잘 모르겠어요. 오늘은 {} 어떠세요?'.format(type_list[random.randrange(0, 5)])
     else:
         type = get_name(type)
         flg = random.randrange(0, 3)

@@ -1,5 +1,5 @@
 def josa(txt, josa):
-    symbols = ['!', '?', '.', ',']
+    symbols = ['!', '?', '.', ',', '~']
     for symbol in symbols:
         txt.replace(symbol, '')
     print(txt)

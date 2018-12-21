@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 from urllib import parse
 import type_selector as ts
 import random
-import josa
 URL = 'https://nstore.naver.com/'
 INTRO = "안녕하세요 NAVER N스토어 챗봇입니다.\n카테고리를 선택해주세요\nex) E북, 만화, 소설, 영화, 방송, 도움말, 검색"
 

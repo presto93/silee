@@ -1,4 +1,4 @@
-recommand_word = ['심심', '재미있는', '할일', '재밌는']
+recommand_word = ['심심', '재미', '할일', '재밌는']
 def get_content_type(text):
     text = text.lower()
     if 'ebook' in text or '이북' in text or 'e북' in text:
